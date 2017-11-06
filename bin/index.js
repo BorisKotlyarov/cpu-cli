@@ -26,13 +26,19 @@ class CpuCli{
                 break;
 
             default:
-                console.log(argv)
-
-
-                this.help();
+                this.default();
 
         }
 
+    }
+
+    default(){
+        cpuStat.usagePercent(
+            (err, percent, seconds) => {
+                if (err) { return console.error(err); }
+                console.log(percent.toFixed(1)+'%');
+            }
+        );
     }
 
     version(){
