@@ -1,7 +1,7 @@
 {
   "name": "cpu-cli",
   "description": "View CPU load info",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "bin": {
     "cpu": "./bin/index.js"
   },
