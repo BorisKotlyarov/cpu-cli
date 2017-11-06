@@ -1,9 +1,9 @@
 {
   "name": "cpu-cli",
   "description": "View CPU load info",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "bin": {
-    "dns": "bin/dns"
+    "cpu": "bin/cpu"
   },
   "repository": {
     "type": "git",
@@ -14,9 +14,13 @@
   },
   "homepage": "https://github.com/BorisKotlyarov/cpu-cli#readme",
   "dependencies": {
-    "cpu-stat":""
+    "cpu-stat": ""
   },
   "devDependencies": {},
   "author": "Boris Kotlyarov",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
