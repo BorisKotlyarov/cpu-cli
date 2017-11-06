@@ -1,5 +1,7 @@
+#!/usr/bin/env node
+
 const cpuStat   = require('cpu-stat');
-const pjson     = require('./package.json');
+const pjson     = require('./../package.json');
 
 
 class CpuCli{
@@ -24,6 +26,9 @@ class CpuCli{
                 break;
 
             default:
+                console.log(argv)
+
+
                 this.help();
 
         }

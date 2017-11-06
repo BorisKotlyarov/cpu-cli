@@ -1,9 +1,9 @@
 {
   "name": "cpu-cli",
   "description": "View CPU load info",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "bin": {
-    "cpu": "bin/cpu"
+    "cpu": "./bin/index.js"
   },
   "repository": {
     "type": "git",
